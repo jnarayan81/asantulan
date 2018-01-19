@@ -1,0 +1,31 @@
+# Write you comments here with "#"
+# Write all command in newline
+
+#For chain only
+--chain
+
+#Outfile format ‑‑format=general for tabbed file; 
+#Use can also use plotted using the ‑‑format=rdotplot output option and the R statistical package.
+--format=general- 
+--progress
+
+#Identity here
+--identity=90
+
+#Coverage
+#‑‑coverage=90
+
+#Ambiguous to take care of N or ambiguous=n
+--ambiguous=iupac
+
+#Using ‑‑step=10, we will only be looking for seeds at every 10th base
+#‑‑step=10
+
+#Use ‑‑exact=20 so that a 20-base exact match is required to qualify as an HSP
+#‑‑exact=20
+
+#The stricter ‑‑match=1,5. This scores matching bases as +1 and mismatches as −5
+#‑‑match=1,5
+
+#Check the trand  ‑‑strand=minus  ‑‑strand=plus
+#‑‑strand=both
